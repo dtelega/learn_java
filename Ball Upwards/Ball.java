@@ -19,3 +19,15 @@ public class Ball {
     }
 }
 
+
+/*
+  Best practices:
+
+  public class Ball {
+
+    public static int maxBall(int v0) {
+      return (int) Math.round((double)(v0/3.6)/0.981);
+    }
+  }
+
+*/
